@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-04-07T11:04:26 AEST" name="Default suite" finished-at="2025-04-07T11:04:54 AEST" duration-ms="27739">
+    <groups>
+      <group name="sanity">
+        <method signature="LoginTest.loginTest(com.ui.pojo.User)[pri:0, instance:com.ui.tests.LoginTest@74fe5c40]" name="loginTest" class="com.ui.tests.LoginTest"/>
+      </group> <!-- sanity -->
+      <group name="e2e">
+        <method signature="LoginTest.loginTest(com.ui.pojo.User)[pri:0, instance:com.ui.tests.LoginTest@74fe5c40]" name="loginTest" class="com.ui.tests.LoginTest"/>
+      </group> <!-- e2e -->
+    </groups>
+    <test started-at="2025-04-07T11:04:26 AEST" name="Default test" finished-at="2025-04-07T11:04:54 AEST" duration-ms="27739">
+      <class name="com.ui.tests.LoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ui.tests.LoginTest@74fe5c40]" started-at="2025-04-07T11:04:26 AEST" name="setUp" description="Load Homepage of the website" finished-at="2025-04-07T11:04:36 AEST" duration-ms="9881" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginTest(com.ui.pojo.User)[pri:0, instance:com.ui.tests.LoginTest@74fe5c40]" started-at="2025-04-07T11:04:36 AEST" name="loginTest" description="Verifies whether the user is able to login with valid credentials" data-provider="LoginTestDataprovider" finished-at="2025-04-07T11:04:54 AEST" duration-ms="17828" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[User [username=pavixi1714@buides.com, password=password]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+      </class> <!-- com.ui.tests.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
