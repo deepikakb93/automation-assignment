@@ -10,13 +10,14 @@ import com.utility.BrowserUtility;
 import com.utility.LoggerUtility;
 
 public class TestBase {
+	
 	protected HomePage homepage;
 	Logger logger=LoggerUtility.getLogger(getClass());
 	
 	@BeforeMethod(description="Load Homepage of the website")
 	public void setUp() {
 		logger.info("Load thw homepage of the website");
-		homepage = new HomePage(CHROME);
+		homepage = new HomePage(CHROME, false);
 		
 	}
 	
